@@ -1,0 +1,33 @@
+Hainnes adalah salah satu mahasiswi yang tinggal di planet Nepisi. Ia berkuliah di salah satu institut terkenal yakni Institut Teknologi Saja di jurusan Informatika. Saat awal diterima, Hainnes mengira bahwa ia tidak akan bertemu dengan pelajaran yang paling ia benci semasa SMA yaitu kimia.Tetapi, dugaannya ternyata salah. Di tahun ajaran baru ini, rektor Institut Teknologi Saja membuat suatu kebijakan baru yaitu semua mahasiswa tahun ajaran baru akan mendapatkan mata kuliah kimia di semester pertamanya. Tentu saja ini membuat Hainnes sangat kesal karena ia harus kembali bertemu dengan musuh lamanya yaitu kimia.
+
+Hari ini, dosen kimia Hainnes, pak Masfu mengajarkan tentang konfigurasi elektron. Konfigurasi elektron di planet Nepisi hampir sama dengan di bumi. Elektron-elektron akan mengisi kulit yang paling dalam sampai penuh, lalu berlanjut kulit yang lebih luar dan seterusnya sampai semua elektron sudah menempati kulit di atom tersebut. Sama seperti di bumi, kapasitas kulit atom terdalam ke-i adalah 2*i2. Yang membedakan konfigurasi elektron di bumi dan Nepisi adalah jika di bumi terdapat batasan untuk jumlah atom yang berada pada kulit terluar yakni 8, di planet Nepisi tidak ada batasan untuk jumlah elektron yang berada di kulit terluar dari sebuah atom. Sebagai contoh,untuk atom yang memiliki 20 elektron,maka konfigurasi elektronnya adalah 2 8 10(berturut-turut dari kulit terdalam ke-1,ke-2 lalu ke-3).
+
+Di akhir perkuliahan, pak Masfu memberikan latihan soal pada muridmuridnya untuk menentukan berapa jumlah kulit pada atom dengan jumlah elektron K. Karena soal-soalnya sangat banyak, Hainnes pun ingin membuat program agar ia dapat menjawab soal-soal tersebut dengan cepat. Karena itu ia pun memintamu untuk membantunya agar ia tidak harus berurusan dengan kimia lama-lama.
+
+Input Format
+
+Baris pertama berisi sebuah bilangan T yang menyatakan banyaknya soal yang diberikan oleh pak Masfu.
+
+T baris selanjutnya berisi sebuah bilangan Ki yang merupakan jumlah elektron atom ke-i.
+
+Constraints
+
+1 <= T <= 10^5
+
+1 <= Ki <= 10^18
+
+Output Format
+
+T buah baris berisi sebuah bilangan Ai dimana Ai adalah jumlah kulit dari atom ke-i.
+
+Sample Input 0
+
+3
+20
+10
+11
+Sample Output 0
+
+3
+2
+3

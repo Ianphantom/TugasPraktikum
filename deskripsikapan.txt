@@ -1,0 +1,27 @@
+Diberikan sebuah array A berisi N buah bilangan. Tentukan total value dari setiap subarray sepanjang K dari array A.
+
+Subarray dari array A adalah kumpulan bilangan yang memiliki indeks yang terurut. Dalam kata lain sebuah subarray berukuran K dapat dinotasikan sebagai A[i], A[i + 1], A[i + 2], .. A[i + k – 1] untuk suatu nilai i
+
+Value dari sebuah subarray adalah nilai maksimal yang ada pada subarray tersebut
+
+Input Format
+
+Baris pertama berisi sebuah bilangan N dan K seperti yang sudah dijelaskan
+
+Baris berikutnya berisi N buah bilangan yang merupakan elemen dari array A
+
+Constraints
+
+1 <= N,K <= 1000000
+
+Output Format
+
+Sebuah baris berisi sebuah bilangan seperti yang dijelaskan di deskripsi
+
+Sample Input 0
+
+6 4
+1 2 3 4 5 6
+Sample Output 0
+
+15

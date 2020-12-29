@@ -1,0 +1,33 @@
+Phan sedang mempelajari tentang Binary Search Tree tetapi ia masih sering tertukar Antara parent dan child. Bantulah Phan mengidentifikasi mana parent dan mana child dari suatu node pada sebuah BST
+
+Input Format
+
+Baris pertama berisi sebuah bilangan Q yang merupakan banyak query.
+
+Q baris selanjutnya berisi salah satu dari 2 tipe query yaitu:
+
+“1 X” yang berarti bilangan X dimasukkan ke dalam BST
+“2 s X” jika s adalah pertanyaan yang seperti dijelaskan di deskripsi. Nilai X pasti ada di dalam BST
+
+Constraints
+
+-
+
+Output Format
+
+Untuk setiap query tipe 2, jika s adalah “child” keluarkan 2 buah bilangan yang dipisahkan spasi “A B” dengan A adalah nilai yang menjadi anak kiri dan B adalah nilai yang menjadi anak kanan, jika tidak ada keluarkan “NULL”. Jika s adalah “parent”, keluarkan parent dari node dengan nilai X. Jika X merupakan root, keluarkan -1.
+
+Sample Input 0
+
+6
+1 2
+1 1
+1 3
+2 child 1
+2 child 2
+2 parent 3
+Sample Output 0
+
+NULL NULL
+1 3
+2

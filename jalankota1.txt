@@ -1,0 +1,44 @@
+Negara smechatics saat ini akan memekarkan sebuah provinsi baru yakni provinsi Nepisi. Ardi sebagai salah satu orang yang berpengaruh di Negara tersebut, ditunjuk sebagai gubernur dari provinsi tersebut.
+
+Sebagai tugas pertamanya, Ardi harus membangun jalan agar setiap kota yang berada di provinsi Nepisi dapat terhubung dengan melewati satu buah jalan atau lebih. Untuk itu Ardi menyewa seorang planologi untuk membantu mendesain jalan-jalan di provinsi Nepisi.
+
+Setelah mendapatkan hasil desain tersebut, Ardi pun menyadari bahwa dana yang diberi oleh pemerintah sangat sedikit, akhirnya Ardi harus berupaya untuk memotong dana perencanaan awal sebesar mungkin tetapi tetap menjaga agar kota-kota di provinsinya tetap saling terhubung. Karena jumlah jalan yang sangat banyak, Ardi pun kebingungan untuk memotoong ruas jalan yang mana.
+
+Bantulah Ardi mencari jumlah total dana yang dapat dihemat oleh Ardi
+
+Input Format
+
+Baris pertama berisi 2 buah bilangan N dan M yang merupakan banyaknya kota serta jalan yang berada dalam perencanaan
+
+M baris berikutnya berisi 3 buah bilangan U,V dan W yang menyatakan untuk membuat jalan yang menghubungkan U dan V dibutuhkan dana sebanyak W
+
+Constraints
+
+1 <= N <= 100000
+
+N – 1 <= M <= 100000
+
+1 <= W <= 10^9
+
+Output Format
+
+Sebuah baris berisi sebuah bilangan X dimana X merupakan dana maksimal yang dapat dihemat oleh Ardi
+
+-- Penjelasan output --
+
+Ardi dapat menghemat dengan tidak membangun jalan yang menghubungkan 1 dan 2 serta jalan yang menghubungkan 3 dan 5
+
+Sample Input 0
+
+7 8
+1 2 8
+1 3 3
+2 4 2
+3 5 7
+4 7 12
+5 6 4
+4 5 1
+2 3 3
+Sample Output 0
+
+15

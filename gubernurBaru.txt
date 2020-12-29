@@ -1,0 +1,30 @@
+Provinsi nepisi adalah salah satu provinsi yang terletak di Negara Schetamics. Provinsi ini terdiri dari N buah kota yang dihubungkan oleh M buah ruas jalan 2 arah. Setiap kota di provinsi ini dapat dikunjungi dari kota lain menggunakan 1 atau lebih ruas jalan.
+
+Ardi baru-baru ini terpilih menjadi gubernur provinsi nepisi. Sebagai program kerja pertamanya, ia ingin menampung aspirasi dari rakyat-rakyatnya mengenai kondisi jalanan di provinsi nepisi ini. Maka dari itu pertama-tama dia ingin menghitung berapa jumlah total jarak terpendek Antara dua kota untuk setiap pasang kota di provinsi itu.
+
+Dengan kata lain, Ardi ingin mengetahui berapa total Dist(i,j) untuk setiap pasang (i,j) 1 <= i <= j <= N dimana Dist(i,j) berarti jarak terpendek yang dapat ditempuh dari i ke j
+
+Input Format
+
+Baris pertama berisi 2 buah bilangan N dan M yang merupakan banyaknya kota serta ruas jalan di provinsi nepisi.
+
+M baris selanjutnya berisi 2 buah bilangan U dan V dan W yang berarti ada ruas jalan yang menghubungkan kota U dan V sepanjang W.
+
+Constraints
+
+1 <= N <= 10^5
+
+1 <= W <= 1000
+
+Output Format
+
+Total jarak terpendek untuk setiap pasang kota dalam modulo 1000000007.
+
+Sample Input 0
+
+3 2
+1 2 5
+1 3 3
+Sample Output 0
+
+16

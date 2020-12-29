@@ -1,0 +1,54 @@
+Yaisyeky akan mengunjungi semua rumah dalam kompleks perumahannya. Namun, ada beberapa aturan yang harus dia tepati:
+
+Yaisyeky hanya dapat bergerak dari satu rumah ke rumah yang lain jika terdapat jalan di antaranya.
+Apabila jalan tersebut tidak memperbolehkan Yaisyeky untuk menyeberang, maka Yaisyeki tidak dapat mengambil jalan tersebut.
+Yaisyeky harus mengunjungi semua tetangga rumah yang sedang ia tempati sebelum berkunjung ke tetangga dari tetangga rumah tersebut. Sehingga ia perlu berjalan kembali ke rumah sebelumnya ketika dia bergerak ke rumah baru
+Aturan 3 tidak mempedulikan aturan 2.
+Bila dalam kompleks rumah tersebut terdapat V rumah dan E jalan, tampilkan urutan perjalanan Yaisyeki dari titik X ke semua titik V selain X jika memungkinkan.
+
+Input Format
+
+Pada baris pertama, masukkan V (banyak kota).
+
+Pada baris kedua, masukkan E (banyak jalan).
+
+Untuk E baris berikutnya, masukan Vi dan Vj.
+
+Pada baris terakhir, masukkan X (titik start).
+
+Sample Input 1
+8
+8
+0 1
+0 2
+1 2
+1 3
+2 3
+2 5
+3 4
+7 6
+0
+Sample input 2
+8
+8
+0 1
+0 2
+1 2
+1 3
+2 3
+2 5
+3 4
+7 6
+6
+Constraints
+
+1 < V < 20
+0 < E < V*V
+Output Format
+
+Keluarkan urutan perjalanan berupa index dari V dimulai dari index X. Tiap index dihubungkan dengan "->" dan index terakhir dihubungkan dengan "-> END" beserta endline.
+
+Sample Output 1
+0 -> 1 -> 2 -> 3 -> 5 -> 4 -> END
+Sample Output 2
+6 -> END
