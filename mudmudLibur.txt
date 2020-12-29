@@ -1,0 +1,43 @@
+Kali ini MudMud libur dulu karena akan melaksanakan ujian pemrograman di University of Oxford, dia mencoba mencari - cari bank soal tahun lalu, kemudian dia menemukan soal seperti ini :
+
+Given N string(s) consisting of characters [‘a’, ‘b’, ‘c’, ‘d’] of varying lengths (maximum length is 20 characters). From the collection of strings, you want to do a search simulation similar to Search Engine. One search is one query that contains one query string to search for. The search mechanism is as follows: • A search is performed by searching for all unique strings that begin with the query string or the query string itself. Then sorted in lexicographic order. • In addition, the number 𝑋 is also calculated, ie the number of times the query string has been inputted as a prefix or as the string itself from the 𝑁 string(s) given at the beginning.
+
+Bantu MudMud yaaaaa :)))))
+
+Input Format
+
+The first line of input is integer 𝑁, number of strings. The next 𝑁 line contains the string that has been explained. After the 𝑁 string has been entered, now is the process for the query. The next line is an integer 𝑄, the number of queries. Each query is described on a separate line consisting of a single string (query string).
+
+Constraints
+
+• 1 ≤ 𝑁 ≤ 10000 • 2 ≤ 𝑄 ≤ 100
+
+Output Format
+
+For each query, print the string "Kasus #i: " where i is the i-th query (starting from 1) followed by the number 𝑋 if any, and then the next line is a list of search results (one line for each string) in lexicographic order . If there are no matches, print "Tidak ada hasil".
+
+Sample Input 0
+
+6
+a
+ab
+aab
+aab
+aabc
+abdca
+3
+a
+ab
+bca
+Sample Output 0
+
+Kasus #1: 6
+a
+aab
+aabc
+ab
+abdca
+Kasus #2: 2
+ab
+abdca
+Kasus #3: Tidak ada hasil
