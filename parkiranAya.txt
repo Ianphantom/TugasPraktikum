@@ -1,0 +1,35 @@
+Terdapat sebuah sistem parkiran yang dapat memberi tahu pengunjung apakah mereka dapat memarkirkan kendaraannya atau tidak. Sistem ini akan mengecek terlebih dahulu kendaraan yang akan diparkir, waktu kedatangan dan perginya, serta kapasitas parkiran. Sistem akan menerima kendaraan yang waktu kedatangan dan perginya sesuai sehingga tidak membuat parkiran macet. Setiap pukul 00.00 - 01.00, parkiran ditutup karena dilakukan maintenance, maka parkiran harus dikosongkan.
+
+Input Format
+
+Satu baris N (banyak kendaraan yang akan parkir) dan K (kapasitas parkiran). Dilanjutkan N baris I (waktu kedatangan tiap kendaraan) dan O (waktu pergi tiap kendaraan).
+
+Constraints
+
+1 <= N <= 10000
+1 <= K <= 1000
+0 < S, F < 24
+Output Format
+
+Lancar jika parkiran tersebut memenuhi ketentuan dan tiap kendaraan dapat keluar sesuai dengan waktunya masing-masing.
+
+Macet jika terdapat kendaraan yang menghambat kendaraan lainnya.
+
+Sample Input 0
+
+3 2
+1 10
+2 5
+6 9
+Sample Output 0
+
+Lancar
+Sample Input 1
+
+3 2
+1 5
+2 5
+3 7
+Sample Output 1
+
+Macet

@@ -1,0 +1,24 @@
+Setiap tahun, guru memutuskan memesan bis untuk transportasi Outdoor Study. Pada waktu mereka akan pergi, bis diparkirkan di pinggir jalan. Jalan di samping sekolah sangat sempit sehingga tidak ada dua bis yang bisa saling berpapasan. Jadi, bis yang terakhir masuk ke pinggir jalan harus keluar dari pinggir jalan terlebih dahulu. Karena jalan satu arah, bis tidak dapat kembali dan masuk kembali ke pinggir jalan atau jalan tengah.
+
+Anda diberi urutan bis yang harus diurutkan agar dapat dinaiki sesuai kelas muridnya. Tulis program yang memutuskan apakah bis dapat dibawa ke dalam urutan yang diinginkan guru.
+
+Input Format
+
+Ada beberapa test case. Baris pertama dari setiap case berisi satu bilangan n bis. Baris kedua berisi bilangan 1 sampai n dalam urutan sembarang. Baris kedua berisi bilangan 1 sampai n dalam urutan sembarang. Semua bilangan dipisahkan oleh satu spasi. Bilangan-bilangan ini menunjukkan urutan bis tiba di jalan. Tidak lebih dari 1000 bis dalam jalan ini. input diakhiri dengan bilangan 0.
+
+Constraints
+
+N<=1000
+
+Output Format
+
+Untuk setiap case, program anda harus mengeluarkan baris berisi satu kata "yes" jika bis dapat diurutkan dengan bantuan sisi jalan, dan satu kata "no" dalam kasus sebaliknya.
+
+Sample Input 0
+
+5
+5 1 2 4 3 
+0
+Sample Output 0
+
+yes
