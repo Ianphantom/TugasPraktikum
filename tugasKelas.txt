@@ -1,0 +1,53 @@
+Suatu hari mahasiswa Struktur Data A diberi tugas untuk membuat AVL Tree. Data di Tree tersebut sangat banyak. Pembuatan Tree adalah dengan mengetikkan perintah insert x, di mana x adalah nilai yang ingin dimasukkan ke Tree.
+
+Setelah penugasan itu berakhir, para mahasiswa diberi tugas follow-up, yaitu untuk mencari jumlah nilai node per kolom dari data paling kiri hingga paling kanan. Jumlah nilai per kolom dicetak dengan mengetikkan perintah print.
+
+Pembagian kolom untuk Sample Input 0 divisualisasikan seperti di bawah ini:
+
+image
+
+Input Format
+
+Baris pertama adalah N. N-baris selanjutnya terdiri dari A (perintah insert atau print). Jika perintah adalah insert, maka lanjutkan input dengan memasukkan X (nilai node).
+
+Constraints
+
+1 < N < 10000
+1 < X < 10000
+Output Format
+
+Output hanya jika perintah di input adalah "print". Tampilkan jumlah nilai node per kolom.
+
+Sample Input 0
+
+9
+insert 20
+insert 10
+insert 15
+insert 9
+insert 6
+insert 25
+insert 24
+insert 26
+print
+Sample Output 0
+
+6 9 45 24 25 26 
+Sample Input 1
+
+11
+insert 19
+insert 14
+insert 39
+insert 11
+print
+insert 24
+insert 36
+insert 31
+insert 21
+insert 38
+print
+Sample Output 1
+
+11 14 19 39 
+11 35 43 105 39 
