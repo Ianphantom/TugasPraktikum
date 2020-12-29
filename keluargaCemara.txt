@@ -1,0 +1,33 @@
+Cetak semua relasi langsung yang dimiliki sebuah node pada tree. Jika node tersebut merupakan node root, anggap parent-nya bernilai -1. Jika di dalam tree tidak terdapat node tersebut, cetak "404 Not Found"
+
+Input Format
+
+Baris pertama merupakan N (banyak bilangan di dalam tree)
+
+Baris kedua berisi N-nilai X pada tree
+
+Baris ketiga berisi M (banyak X yang ingin dicari relasinya)
+
+M-baris selanjutnya merupakan nilai X yang ingin dicari relasinya
+
+Constraints
+
+1 ≤ N, M ≤ 1000
+-10000 ≤ X ≤ 10000
+Output Format
+
+M baris, di mana masing-masing baris berisi parent dan child node tersebut
+
+Sample Input 0
+
+10
+10 6 19 2 7 22 16 20 13 9
+3
+10
+6
+13
+Sample Output 0
+
+-1 6 19 
+10 2 7 
+16 

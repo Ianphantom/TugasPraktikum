@@ -1,0 +1,18 @@
+Terdapat sebuah BST. Tampilkan semua nilai dalam BST tersebut mulai dari Node terbawah berurut dari kecil ke besar!
+
+Input Format
+
+Pada baris pertama, masukkan N. Kemudian pada baris berikutnya, masukkan N angka
+
+Constraints
+
+-2^13 < Nilai Node < 2^13
+Output Format
+
+Output berupa keluaran tree sesuai perintah dipisah spasi antar angka dan diakhiri dengan newline.
+
+Sample Input
+5
+3 7 2 5 1
+Sample Output
+1 5 2 7 3

@@ -1,0 +1,38 @@
+MudMud mempunyai keluarga yang sangat besar, dia sedang kebingungan tentang silsilah keluarganya. Dia tidak bisa tahu mana anak dan mana ibunya. Bantu ia menemukan mana anak dan mana orangtua dari keluarga besarnya.
+
+Input Format
+
+Baris pertama berisi sebuah bilangan Q yang merupakan banyak query Q baris berikutnya berisi salah satu dari 2 tipe quey berikut:
+
+"1 K" berarti bilangan K dimasukkan ke dalam BST
+
+"2 S X" jika S adalah pernyataan yang seperti dijelaskan di deskripsi. X pasti ada di dalam BST
+
+Constraints
+
+1 ≤ Q, K ≤ 100
+
+Output Format
+
+Untuk setiap query tipe 2:
+
+Jika S adalah "anaK" keluarkan child dari node dipisahkan dengan spasi "A B", A adalah anak kiri dan B adalah anak kanan. Jika salah satu tidak ada keluarkan "-". Jika sama sekali tidak memiliki anak berhenti memproses dan keluarkan "diManakah Anak- aNakkuu :(".
+
+Jika S adalah "ibU" keluarkan parent dari node, jika node adalah root keluarkan "Aku adalaH sesepuH"
+
+Sample Input 0
+
+7
+1 2
+1 1
+2 anaK 2
+1 3
+2 ibU 1
+2 anaK 2
+2 anaK 1
+Sample Output 0
+
+1 -
+2
+1 3
+diManakah Anak- aNakkuu :(
