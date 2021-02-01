@@ -1,0 +1,57 @@
+Berhubungan dengan pandemik yang sedang terjadi, pemerintah Negara nepisi ingin menyalurkan bantuan kepada provinsi-provinsi yang terkena bencana.
+
+Dalam penyaluran bantuan, kota-kota yang berada di provinsi yang sama akan mendapat jumlah bantuan yang sama, sedangkan kota yang berada di provinsi berbeda akan mendapatkan jumlah bantuan yang berbeda juga.
+
+Tetapi, karena perekonomian yang semakin memburuk, pemerintah juga harus menghemat pengeluaran dari kas Negara. Tentukanlah berapa total bantuan minimal yang harus dikeluarkan oleh pemerintah.
+
+Dua kota berada didalam provinsi yang sama jika kita dapat melewati satu atau lebih jalan untuk sampai dari satu kota ke kota lainnya.
+
+Input Format
+
+Baris pertama berisi sebuah bilangan T yang merupakan banyaknya kasus uji.
+
+Untuk setiap kasus uji, baris pertama berisi 2 buah bilangan N dan M yang menyatakan banyaknya kota serta jalan pada Negara nepisi.
+
+M baris selanjutnya berisi dua bilangan U dan V yang berarti terdapat jalan yang menghubungkan kota U dan kota V.
+
+Constraints
+
+1 <= T <= 5
+
+1 <= N <= 10^5
+
+N – 1 <= M <= min(N * (N – 1) / 2,10^5)
+
+Output Format
+
+Untuk setiap kasus uji, keluarkan satu buah baris yang berisi “Kasus #K: X” dimana K merupakan nomor kasus uji, dan X merupakan biaya minimal yang dikeluarkan pemerintah
+
+Berikut adalah gambaran untuk kasus uji pertama
+
+image
+
+Salah satu cara yang optimal adalah
+
+memberikan bantuan sejumlah 1 pada kota 1,2 dan 3
+memberikan bantuan sejumlah 2 pada kota 4
+memberikan bantuan sejumlah 3 pada kota 5
+Sehingga total bantuan yang diberikan sebanyak 8
+
+Sample Input 0
+
+2
+5 3
+1 2
+2 3
+3 1
+7 6
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Sample Output 0
+
+Kasus #1: 8
+Kasus #2: 7

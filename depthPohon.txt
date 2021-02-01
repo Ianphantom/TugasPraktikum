@@ -1,0 +1,31 @@
+Diberikan sebuah Binary Search Tree, tentukan jumlah dari 2 node dengan kedalaman terbesar pada tree tersebut tersebut setiap kali sebuah data dimasukkan. Kedalaman sebuah node adalah jarak node tersebut dari root.
+
+Input Format
+
+Baris pertama berisi sebuah bilangan Q yang merupakan banyaknya data yang akan dimasukkan
+
+Q baris selanjutnya berisi data-data yang akan dimasukkan sesuai dengan urutannya
+
+Constraints
+
+-
+
+Output Format
+
+Keluarkan Q baris bilangan dimana baris ke-i merupakan diameter tree setelah data ke-i dimasukkan. Jika hanya terdapat 1 node, keluarkan 0.
+
+Sample Input 0
+
+5
+3
+1
+2
+4
+5
+Sample Output 0
+
+0
+1
+2
+3
+4
