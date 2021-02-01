@@ -1,0 +1,40 @@
+Ardi merupakan panitia dari acara smechatics nepisi yang diselenggarakan oleh Institut Teknologi Saja. Sebagai tugas pertamanya, ia diminta untuk mengumpulkan data dari perolehan poin setiap peserta dari lomba tersebut tahun lalu.
+
+Tetapi, karena penasaran, setiap peserta akan menanyakan di peringkat berapa dia berada. Karena data yang belum lengkap, ardi akan menjawab sesuai dengan data yang telah ia miliki saat ini saja.
+
+Karena data yang sangat banyak, Ardi pun kewalahan untuk menjawab setiap kali seorang pesertaa menjawab. Bantulah ia untuk menjawab pertanyaan-pertanyaan peserta tersebut. Peringkat peserta diurutkan berdasarkan poin yang tertinggi. Bila ada lebih dari satu peserta yang memiliki poin yang sama, maka peserta-peserta tersebut memiliki peringkat yang sama.
+
+Input Format
+
+Baris pertama berisi sebuah bilangan N yang merupakan banyaknya peserta.
+
+Baris berikutnya berisi N buah bilangan Ai dimana Ai merupakan nilai dari peserta ke-i yang di minta nilainya oleh Ardi
+
+Constraints
+
+1 <= N <= 10^5
+
+1 <= Ai <= 10^9
+
+Output Format
+
+N buah baris Bi dimana Bi merupakan peringkat dari peserta ke-i
+
+--Penjelasan Output Sample --
+
+Pada orang pertama, belum terdapat data yang disimpan, maka peserta tersebut berada di peringkat pertama
+Pada orang kedua, data yang ada adalah [361] maka peserta dengan nilai 173 akan menempati peringkat kedua
+Pada orang ketiga, data yang ada adalah [361,173] maka peserta dengan nilai 258 akan menempati peringkat kedua
+Pada orang keempat, data yang ada adalah [361,258,173] maka peserta dengan nilai 165 akan menempati peringkat keempat
+Pada orang kelima, data yang ada adalah [361,258,173,165] maka peserta dengan nilai 258 akan menempati peringkat kedua. Perhatikan bahwa meskipun terdapat peserta lain dengan nilai yang sama, keduanya tetap menduduki peringkat kedua
+Sample Input 0
+
+5
+361 173 258 165 258
+Sample Output 0
+
+1
+2
+2
+4
+2

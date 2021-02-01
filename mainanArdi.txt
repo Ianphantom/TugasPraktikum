@@ -1,0 +1,33 @@
+Ardi memiliki N buah mainan. Setiap mainannya diletakkan dalam setiap kotak yang diberi nomor 1 sampai N yang dia susun dari kiri ke kanan. Setiap kali ia ingin bermain bersama teman-temannya, ardi akan memilih mainan yang berada di Antara kotak L sampai R yang memiliki harga tertinggi.
+
+Tetapi, terkadang terjadi perubahan harga untuk mainan-mainan tersebut. Bantulah Ardi memilih mainan mana yang harus ia bawa.
+
+Input Format
+
+Baris pertama berisi dua buah bilangan N dan Q yang merupakan banyaknya mainan serta query.
+
+Baris berikutnya berisi N buah bilangan Ai dimana Ai merupakan harga dari mainan ke-i
+
+Q baris berikutnya berisi salah satu dari 2 tipe query:
+
+“1 X K” yang berarti harga mainan yang berada pada kotak ke-X berubah menjadi K
+“2 L R” yang berarti Ardi akan memilih mainan yang berada pada rentang L sampai R
+Constraints
+
+-
+
+Output Format
+
+Untuk setiap query tipe 2, keluarkan sebuah bilangan yang merupakan harga maksimal dari mainan yang berada pada rentang L sampai R
+
+Sample Input 0
+
+5 3
+1 2 3 4 5
+2 2 4
+1 3 5
+2 2 4
+Sample Output 0
+
+4
+5
